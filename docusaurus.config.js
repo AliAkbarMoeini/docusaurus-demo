@@ -16,7 +16,8 @@ const config = {
   organizationName: 'aliakbarmoeini', // Usually your GitHub org/user name.
   projectName: 'docusaurus-demo', // Usually your repo name.
   deploymentBranch: 'gh-pages',
-
+  trailingSlash: true,
+  
   i18n: {
     defaultLocale: 'fa',
     locales: ['fa'],
