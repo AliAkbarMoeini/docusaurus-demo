@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'AliAkbar Moeini',
+  tagline: 'Docusaurus is very cool',
   url: 'https://aliakbarmoeini.github.io',
   baseUrl: '/docusaurus-demo/',
   onBrokenLinks: 'throw',
@@ -69,7 +69,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/AliAkbarMoeini/docusaurus-demo',
             label: 'GitHub',
             position: 'right',
           },
