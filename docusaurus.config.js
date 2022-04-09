@@ -100,7 +100,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/AliAbkarMoeini',
               },
             ],
           },
@@ -113,7 +113,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/AliAkbarMoeini/docusaurus-demo',
               },
             ],
           },
