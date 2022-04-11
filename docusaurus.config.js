@@ -55,7 +55,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'علی اکبر معینی',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -65,12 +65,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'آموزش',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'بلاگ', position: 'left'},
           {
             href: 'https://github.com/AliAkbarMoeini/docusaurus-demo',
-            label: 'GitHub',
+            label: 'مخزن گیت‌هاب',
             position: 'right',
           },
         ],
@@ -118,7 +118,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `کپی رایت © ${new Date().getFullYear()} . ساخته شده با Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

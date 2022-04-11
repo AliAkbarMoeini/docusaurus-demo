@@ -6,25 +6,25 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #e600b4;
+  --ifm-color-primary-dark: #cf00a2;
+  --ifm-color-primary-darker: #c40099;
+  --ifm-color-primary-darkest: #a1007e;
+  --ifm-color-primary-light: #fd00c6;
+  --ifm-color-primary-lighter: #ff0aca;
+  --ifm-color-primary-lightest: #ff2cd1;
   --ifm-code-font-size: 95%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #ff3dd5;
+  --ifm-color-primary-dark: #ff1dce;
+  --ifm-color-primary-darker: #ff0ecb;
+  --ifm-color-primary-darkest: #dd00ad;
+  --ifm-color-primary-light: #ff5ddc;
+  --ifm-color-primary-lighter: #ff6cdf;
+  --ifm-color-primary-lightest: #ff9cea;
 }
 
 .docusaurus-highlight-code-line {
@@ -36,4 +36,19 @@
 
 [data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+@font-face {
+  font-family: NotoSansArabic-Light;
+  src: url("/static/NotoSansArabic-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: NotoSansArabic-Regular;
+  src: url("/static/NotoSansArabic-Regular.ttf") format("truetype");
+}
+
+
+:root {
+  --ifm-font-family-base: "NotoSansArabic-Regular";
 }
