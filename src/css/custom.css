@@ -38,17 +38,9 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@font-face {
-  font-family: NotoSansArabic-Light;
-  src: url("/static/NotoSansArabic-Light.ttf") format("truetype");
-}
 
-@font-face {
-  font-family: NotoSansArabic-Regular;
-  src: url("/static/NotoSansArabic-Regular.ttf") format("truetype");
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&display=swap');
 
 :root {
-  --ifm-font-family-base: "NotoSansArabic-Regular";
+  --ifm-font-family-base: "Noto Sans Arabic";
 }
